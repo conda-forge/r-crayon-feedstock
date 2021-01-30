@@ -5,11 +5,9 @@ Home: https://github.com/r-lib/crayon#readme
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-crayon-feedstock/blob/master/LICENSE.txt)
 
 Summary: Colored terminal output on terminals that support 'ANSI' color and highlight codes. It also works in 'Emacs' 'ESS'. 'ANSI' color support is automatically detected. Colors and highlighting can be combined and nested. New styles can also be created easily. This package was inspired by the 'chalk' 'JavaScript' project.
-
-
 
 Current build status
 ====================
