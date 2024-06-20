@@ -1,4 +1,4 @@
-{% set version = "1.5.2" %}
+{% set version = "1.5.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/crayon_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/crayon/crayon_{{ version }}.tar.gz
-  sha256: 70a9a505b5b3c0ee6682ad8b965e28b7e24d9f942160d0a2bad18eec22b45a7a
+  sha256: 3e74a0685541efb5ea763b92cfd5c859df71c46b0605967a0b5dbb7326e9da69
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
